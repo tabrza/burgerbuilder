@@ -9,7 +9,9 @@ const buildControl = (props) => (
       className={classes.Less}
       onClick={props.removeIngredient}
       disabled={props.disabledInfo}>Less</button>
-    <button className={classes.More} onClick={props.addIngredient}>More</button>
+    <button
+      className={classes.More}
+      onClick={props.addIngredient}>More</button>
   </div>
 );
 
